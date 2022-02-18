@@ -1,0 +1,65 @@
+klant
+ voornaam	elementair
+ tussenvoegsel  elementair
+ achternaam	elementair
+ straat		elementair
+ nummer		elementair
+ postcode	elementair
+ plaats 	elementair
+ telefoon	elementair
+ rijbewijs	elementair
+ email		elementair
+ wachtwoord	elementair
+
+
+motor-zijspan combinatie
+ klasse			elementair
+ beschikbaarheid	elementair
+
+
+les
+ motor-zijspan combinatie
+ medewerker
+ klant			
+ prijs			elementair
+ datum			elementair
+ tijd			elementair
+ duur 			elementair
+
+medewerker
+ voornaam		elementair
+ tussenvoegsel  	elementair
+ achternaam		elementair
+ straat			elementair
+ nummer			elementair
+ postcode		elementair
+ plaats 		elementair
+ telefoon		elementair
+ email			elementair
+ wachtwoord		elementair
+ rechten		elementair
+ aantal vakantiedagen	elementair
+ 
+vakantiedag
+ datum			elementair
+ 
+salaris
+ bruto bedrag		elementair
+ belasting		elementair
+ zzw			elementair
+ reiskostenvergoeding	elementair
+
+directie
+ email 			elementair
+ wachtwoord		elementair
+ rechten		elementair
+
+planning
+
+faktuur
+ klant
+ les
+ datum
+
+
+overzicht

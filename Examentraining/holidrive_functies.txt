@@ -1,0 +1,14 @@
+* overzicht van alle caravans met de huurprijs per  (pagina) 
+* klanten kunnen intekenen op een caravan en periode specificeren (pagina)
+* klant moet naam en adres, email en telefoon opgeven (pagina)
+* klant moet gegevens kunnen inzien
+* klant moet gegevens kunnen wijzigen   (CRUD)
+* klant moet gegevens kunnen verwijderen
+* medewerker moet kunnen inloggen in administratie   (pagina)
+* medewerker gegevens invoeren (pagina)
+* medewerker gegevens wijzigen          (CRUD)
+* medewerker verwijderen
+*! medewerker moet factuur maken (pagina)
+*! medewerker moet caravan toewijzen aan klant
+*! factuur moet 10 Euro per dag toevoegen voor verzekering
+* als caravan teruggebracht dan beschikbaar melden (pagina)

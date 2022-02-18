@@ -1,0 +1,65 @@
+klant
+ klantid
+ voornaam	elementair
+ tussenvoegsel  elementair
+ achternaam	elementair
+ straat		elementair
+ nummer		elementair
+ postcode	elementair
+ plaats 	elementair
+ rijbewijs	elementair
+ email		elementair
+ wachtwoord	elementair
+
+
+motor-zijspan combinatie
+ motorid
+ klasse			elementair
+ beschikbaarheid	elementair
+
+
+les
+ lesid
+ motorid
+ medewerkerid
+ klantid			
+ prijs			elementair
+ datum			elementair
+ tijd			elementair
+ duur 			elementair
+
+medewerker  ( = ook directie)
+ medewerkerid
+ rolid 			elementair
+ voornaam		elementair
+ tussenvoegsel  	elementair
+ achternaam		elementair
+ straat			elementair
+ nummer			elementair
+ postcode		elementair
+ plaats 		elementair
+ telefoon		elementair
+ email			elementair
+ wachtwoord		elementair
+ aantal vakantiedagen	elementair
+ 
+rol
+ rolid
+ rechten
+
+vakantiedag
+ medewerkerid
+ datum			elementair
+ 
+salaris
+ medewerkerid
+ bruto bedrag		elementair
+ belasting		elementair
+ zzw			elementair
+ reiskostenvergoeding	elementair
+
+faktuur
+ faktuurid
+ klantid
+ lesid
+ datum

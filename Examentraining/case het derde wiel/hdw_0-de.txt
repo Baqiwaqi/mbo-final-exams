@@ -1,0 +1,51 @@
+klant
+ naam		samengesteld   -> voornaam, tussenvoegsel, achternaam
+ adres		samengesteld   -> straat, nummer, postcode, plaats
+ telefoon	elementair
+ rijbewijs	elementair
+ email		elementair
+ wachtwoord	elementair
+
+
+motor-zijspan combinatie
+ klasse			elementair
+ beschikbaarheid	elementair
+
+
+les
+ klant			
+ motor-zijspan combinatie       <- vast gegeven voor klant !!
+ medewerker			<- vast gegeven voor klant !!
+ prijs			elementair
+ datum			elementair
+ tijd			elementair
+ duur 			elementair
+
+medewerker
+ email			elementair
+ wachtwoord		elementair
+ rechten		samengesteld
+ 
+vakantie/vrij
+ datum
+ 
+salaris
+ bruto bedrag		elementair
+ belasting		elementair
+ zzw			elementair
+ reiskostenvergoeding	elementair
+
+directie
+ email 			elementair
+ wachtwoord		elementair
+ rechten		elementair
+
+planning
+
+faktuur
+ klant
+ les
+ datum
+
+
+overzicht

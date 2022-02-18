@@ -1,0 +1,73 @@
+klant
+ klantid			int auto inc
+ voornaam	elementair	varchar 30
+ tussenvoegsel  elementair	varchar 10
+ achternaam	elementair	varchar 40
+ straat		elementair	varchar 40
+ nummer		elementair	varchar 10
+ postcode	elementair	varchar 7
+ plaats 	elementair	varchar 40
+ telefoonnummer elementair	varchar 14
+ rijbewijs	elementair	varchar 10
+ emailadres	elementair	varchar 250
+ wachtwoord	elementair	varchar 20
+
+
+
+motor-zijspan combinatie
+ motorid
+ klasse			elementair
+ beschikbaarheid	elementair
+
+les
+ lesid
+ kmmid			
+ prijs			elementair
+ datum			elementair
+ tijd			elementair
+ duur 			elementair
+
+klantmedewerkermotor
+ kmmid
+ motorid
+ medewerkerid
+ klantid
+
+medewerker
+ medewerkerid
+ voornaam		elementair
+ tussenvoegsel  	elementair
+ achternaam		elementair
+ straat			elementair
+ nummer			elementair
+ postcode		elementair
+ plaats 		elementair
+ telefoon		elementair
+ email			elementair
+ wachtwoord		elementair
+ aantal vakantiedagen	elementair
+
+medewerker_rol
+ medewerkerid
+ rolid
+ 
+rol
+ rolid
+ rolnaam		elementair
+ rechten		elementair
+
+vakantiedag
+ medewerkerid
+ datum			elementair
+ 
+salaris
+ medewerkerid
+ bruto bedrag		elementair
+ belasting		elementair
+ zzw			elementair
+ reiskostenvergoeding	elementair
+
+faktuur
+ faktuurid
+ lesid
+ datum
